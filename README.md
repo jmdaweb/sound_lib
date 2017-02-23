@@ -45,7 +45,7 @@ stream = FileStream(file='sound.mp3')
 ### URL streams
 ```
 from sound_lib.stream import URLStream
-stream = URLStream('http://example.com/stream.ogg')
+stream = URLStream('http://listen.tbrn.net:8888/tbrn.ogg'.encode())  # Don't forget to encode!
 ```
 
 ### Push stream
